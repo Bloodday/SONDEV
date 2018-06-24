@@ -1,0 +1,9 @@
+C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI\bin\Debug\netstandard2.0\ENTAJI.deps.json
+C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI\bin\Debug\netstandard2.0\ENTAJI.dll
+C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI\bin\Debug\netstandard2.0\ENTAJI.pdb
+C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI\obj\Debug\netstandard2.0\ENTAJI.csprojAssemblyReference.cache
+C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI\obj\Debug\netstandard2.0\ENTAJI.csproj.CoreCompileInputs.cache
+C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI\obj\Debug\netstandard2.0\ENTAJI.AssemblyInfoInputs.cache
+C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI\obj\Debug\netstandard2.0\ENTAJI.AssemblyInfo.cs
+C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI\obj\Debug\netstandard2.0\ENTAJI.dll
+C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI\obj\Debug\netstandard2.0\ENTAJI.pdb
