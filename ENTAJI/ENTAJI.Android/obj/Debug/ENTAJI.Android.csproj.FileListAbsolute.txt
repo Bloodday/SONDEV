@@ -1,11 +1,12 @@
+C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\ENTAJI.Android.csprojAssemblyReference.cache
+C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\ENTAJI.Android.csproj.CoreCompileInputs.cache
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\bin\Debug\ENTAJI.Android.dll
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\bin\Debug\ENTAJI.Android.pdb
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\bin\Debug\com.companyname.ENTAJI.apk
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\bin\Debug\com.companyname.ENTAJI-Signed.apk
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\bin\Debug\ENTAJI.dll
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\bin\Debug\ENTAJI.pdb
-C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\ENTAJI.Android.csprojAssemblyReference.cache
-C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\ENTAJI.Android.csproj.CoreCompileInputs.cache
+C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\XamlC.stamp
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\ENTAJI.Android.csproj.CopyComplete
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\ENTAJI.Android.dll
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\ENTAJI.Android.pdb
@@ -26,6 +27,8 @@ C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\res\mip
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\res\mipmap-xxhdpi\launcher_foreground.png
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\res\mipmap-xxxhdpi\icon.png
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\res\mipmap-xxxhdpi\launcher_foreground.png
+C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\res\drawable\userlogin.png
+C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\res\drawable\round_corners.xml
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\R.cs.flag
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\R.txt
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\uploadflags.txt
@@ -47,6 +50,7 @@ C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\bin\Debug\System.
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\bin\Debug\System.Runtime.Serialization.pdb
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\bin\Debug\System.ServiceModel.Internals.pdb
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\bin\Debug\System.Web.Services.pdb
+C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\bin\Debug\Microsoft.CSharp.pdb
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\bin\Debug\Mono.Security.pdb
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\linksrc\ENTAJI.pdb
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\linksrc\Mono.Android.pdb
@@ -67,6 +71,7 @@ C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\linksrc
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\linksrc\System.Runtime.Serialization.pdb
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\linksrc\System.ServiceModel.Internals.pdb
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\linksrc\System.Web.Services.pdb
+C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\linksrc\Microsoft.CSharp.pdb
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\linksrc\Mono.Security.pdb
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\bin\Debug\FormsViewGroup.dll.mdb
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
@@ -78,6 +83,7 @@ C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\android
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\android\assets\ENTAJI.pdb
+C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\android\assets\Microsoft.CSharp.pdb
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\android\assets\Mono.Android.pdb
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\android\assets\Mono.Security.pdb
 C:\Users\Blooday\Documents\GitHub\SONDEV\ENTAJI\ENTAJI.Android\obj\Debug\android\assets\mscorlib.pdb

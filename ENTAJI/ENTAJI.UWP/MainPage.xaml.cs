@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Syncfusion.ListView.XForms.UWP;
 
 namespace ENTAJI.UWP
 {
@@ -20,7 +21,7 @@ namespace ENTAJI.UWP
         public MainPage()
         {
             this.InitializeComponent();
-
+            SfListViewRenderer.Init();
             LoadApplication(new ENTAJI.App());
         }
     }

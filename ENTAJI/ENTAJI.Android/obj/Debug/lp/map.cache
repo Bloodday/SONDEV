@@ -1,6 +1,12 @@
 ENTAJI
-System.Runtime
 FormsViewGroup
+ImageCircle.Forms.Plugin
+Syncfusion.Core.XForms
+Syncfusion.DataSource.Portable
+Syncfusion.GridCommon.Portable
+Syncfusion.SfListView.XForms.Android
+Syncfusion.SfListView.XForms
+System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
 Xamarin.Android.Arch.Lifecycle.Runtime
@@ -25,4 +31,7 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
-ImageCircle.Forms.Plugin
+System.Resources.ResourceManager
+System.Linq.Queryable
+System.Reflection.Extensions
+System.ComponentModel

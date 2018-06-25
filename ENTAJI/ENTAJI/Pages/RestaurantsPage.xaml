@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xForms="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             x:Class="ENTAJI.Pages.RestaurantsPage">
+    <ContentPage.Content>
+        <Grid Margin="0" RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <xForms:SfListView x:Name="RestaurantsListView"
+                       Margin="0"
+                       Padding="0,5,0,5"
+                       SelectionMode="None"
+                       BackgroundColor="#F0F0F0"
+                       ItemSpacing="10,5,10,5">
+                <xForms:SfListView.ItemSize>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <OnPlatform.WinPhone>
+                            <OnIdiom x:TypeArguments="x:Double" Desktop="150" Phone="120" Tablet="150" />
+                        </OnPlatform.WinPhone>
+                        <OnPlatform.Android>
+                            <OnIdiom x:TypeArguments="x:Double"
+                       Phone="100"
+                       Tablet="100" />
+                        </OnPlatform.Android>
+                        <OnPlatform.iOS>
+                            <OnIdiom x:TypeArguments="x:Double"
+                       Phone="100"
+                       Tablet="90" />
+                        </OnPlatform.iOS>
+                    </OnPlatform>
+                </xForms:SfListView.ItemSize>
+                <xForms:SfListView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BackgroundColor="White" Padding="1">
+                            <Frame.HasShadow>
+                                <OnPlatform x:TypeArguments="x:Boolean" Android="True" WinPhone="True" iOS="False"/>
+                            </Frame.HasShadow>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition>
+                                        <ColumnDefinition.Width>
+                                            <OnPlatform x:TypeArguments="GridLength">
+                                                <OnPlatform.WinPhone>
+                                                    <OnIdiom x:TypeArguments="GridLength" Desktop="Auto" Phone="Auto" Tablet="0.55*" />
+                                                </OnPlatform.WinPhone>
+                                                <OnPlatform.Android>
+                                                    <OnIdiom x:TypeArguments="GridLength" Phone="0.35*" Tablet="0.25*" />
+                                                </OnPlatform.Android>
+                                                <OnPlatform.iOS>
+                                                    <OnIdiom x:TypeArguments="GridLength" Phone="0.35*" Tablet="0.15*" />
+                                                </OnPlatform.iOS>
+                                            </OnPlatform>
+                                        </ColumnDefinition.Width>
+                                    </ColumnDefinition>
+                                    <ColumnDefinition>
+                                        <ColumnDefinition.Width>
+                                            <OnPlatform x:TypeArguments="GridLength">
+                                                <OnPlatform.WinPhone>
+                                                    <OnIdiom x:TypeArguments="GridLength" Desktop="*" Phone="*" Tablet="0.15*" />
+                                                </OnPlatform.WinPhone>
+                                                <OnPlatform.Android>
+                                                    <OnIdiom x:TypeArguments="GridLength" Phone="0.65*" Tablet="0.75*" />
+                                                </OnPlatform.Android>
+                                                <OnPlatform.iOS>
+                                                    <OnIdiom x:TypeArguments="GridLength" Phone="0.65*" Tablet="0.85*" />
+                                                </OnPlatform.iOS>
+                                            </OnPlatform>
+                                        </ColumnDefinition.Width>
+                                    </ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source="{Binding Image}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+
+                                <Grid Grid.Column="1" Padding="10,0,0,0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Label Text="{Binding Name}" LineBreakMode="WordWrap" FontAttributes="Bold">
+                                        <Label.FontSize>
+                                            <OnPlatform x:TypeArguments="x:Double">
+                                                <OnPlatform.WinPhone>
+                                                    <OnIdiom x:TypeArguments="x:Double" Desktop="26" Phone="16" Tablet="26" />
+                                                </OnPlatform.WinPhone>
+                                                <OnPlatform.Android>
+                                                    <OnIdiom x:TypeArguments="x:Double"
+                                   Phone="18"
+                                   Tablet="22" />
+                                                </OnPlatform.Android>
+                                                <OnPlatform.iOS>
+                                                    <OnIdiom x:TypeArguments="x:Double"
+                                   Phone="18"
+                                   Tablet="22" />
+                                                </OnPlatform.iOS>
+                                            </OnPlatform>
+                                        </Label.FontSize>
+                                    </Label>
+
+                                    <Label Grid.Row="1" LineBreakMode="WordWrap" Text="{Binding Description}">
+                                        <Label.FontSize>
+                                            <OnPlatform x:TypeArguments="x:Double">
+                                                <OnPlatform.WinPhone>
+                                                    <OnIdiom x:TypeArguments="x:Double" Desktop="16" Phone="10" Tablet="14" />
+                                                </OnPlatform.WinPhone>
+                                                <OnPlatform.Android>
+                                                    <OnIdiom x:TypeArguments="x:Double"
+                                   Phone="11"
+                                   Tablet="13" />
+                                                </OnPlatform.Android>
+                                                <OnPlatform.iOS>
+                                                    <OnIdiom x:TypeArguments="x:Double"
+                                   Phone="11"
+                                   Tablet="13" />
+                                                </OnPlatform.iOS>
+                                            </OnPlatform>
+                                        </Label.FontSize>
+                                    </Label>
+                                </Grid>
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </xForms:SfListView.ItemTemplate>
+            </xForms:SfListView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

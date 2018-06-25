@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ENTAJI"
+             x:Class="ENTAJI.Pages.LoginPage"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             xmlns:effects="clr-namespace:ENTAJI.Effects;assembly=ENTAJI"
+             xmlns:vm="clr-namespace:ENTAJI.ViewModels"
+             FlowDirection="{x:Static Device.FlowDirection}">
+    <ContentPage.BindingContext>
+        <vm:LoginVm/>
+    </ContentPage.BindingContext>
+
+    <StackLayout VerticalOptions="Center">
+        <controls:CircleImage Source="userlogin.png" Aspect="AspectFill" VerticalOptions="Center" HorizontalOptions="Center">
+            <controls:CircleImage.WidthRequest>
+                <OnPlatform x:TypeArguments="x:Double">
+                    <On Platform="Android, iOS">120</On>
+                    <On Platform="WinPhone">164</On>
+                </OnPlatform>
+            </controls:CircleImage.WidthRequest>
+            <controls:CircleImage.HeightRequest>
+                <OnPlatform x:TypeArguments="x:Double">
+                    <On Platform="Android, iOS">120</On>
+                    <On Platform="WinPhone">164</On>
+                </OnPlatform>
+            </controls:CircleImage.HeightRequest>
+        </controls:CircleImage>
+        <Label Text="Welcome ENTAJI!, please Login"  HorizontalOptions="Center" />
+        <Entry Placeholder="Username" Margin="50,0">
+            <Entry.Effects>
+                <effects:RoundCornerEffect/>
+            </Entry.Effects>
+        </Entry>
+        <Entry Placeholder="Pasword" IsPassword="True" Margin="50,0">
+            <Entry.Effects>
+                <effects:RoundCornerEffect/>
+            </Entry.Effects>
+        </Entry>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Button Text="Login" Command="{Binding LoginCommand}"/>
+            <Button Text="Register"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

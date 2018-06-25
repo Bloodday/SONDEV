@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Syncfusion.ListView.XForms.iOS;
 using UIKit;
 
 namespace ENTAJI.iOS
@@ -24,7 +25,7 @@ namespace ENTAJI.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
-
+            SfListViewRenderer.Init();
             return base.FinishedLaunching(app, options);
         }
     }

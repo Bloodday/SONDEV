@@ -2993,11 +2993,17 @@ namespace ENTAJI.Droid
 			// aapt resource value: 2131296268
 			public static int notify_panel_notification_icon_bg = 2131296268;
 			
+			// aapt resource value: 0
+			public static int round_corners = 0;
+			
 			// aapt resource value: 2131296361
 			public static int tooltip_frame_dark = 2131296361;
 			
 			// aapt resource value: 2131296362
 			public static int tooltip_frame_light = 2131296362;
+			
+			// aapt resource value: 0
+			public static int userlogin = 0;
 			
 			static Drawable()
 			{
@@ -3941,11 +3947,17 @@ namespace ENTAJI.Droid
 			// aapt resource value: 2132082718
 			public static int appbar_scrolling_view_behavior = 2132082718;
 			
+			// aapt resource value: 0
+			public static int ApplicationName = 0;
+			
 			// aapt resource value: 2132082719
 			public static int bottom_sheet_behavior = 2132082719;
 			
 			// aapt resource value: 2132082720
 			public static int character_counter_pattern = 2132082720;
+			
+			// aapt resource value: 0
+			public static int Hello = 0;
 			
 			// aapt resource value: 2132082718
 			public static int mr_button_content_description = 2132082718;

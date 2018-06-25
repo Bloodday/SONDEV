@@ -5,11 +5,54 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="3.0.0.5" />
-    <PackageReference Include="Xamarin.Forms" Version="3.0.0.446417" />
+    <None Remove="DummyContent\Images\Food 1.jpg" />
+    <None Remove="DummyContent\Images\Food 2.jpg" />
+    <None Remove="DummyContent\Images\Restaurant 1.jpg" />
+    <None Remove="DummyContent\Images\Restaurant 2.jpg" />
+    <None Remove="DummyContent\Images\Restaurant 3.jpg" />
+    <None Remove="DummyContent\Images\Restaurant 4.jpg" />
+    <None Remove="DummyContent\Images\Restaurant 5.jpg" />
+    <None Remove="DummyContent\Images\Restaurant1.jpg" />
+    <None Remove="DummyContent\Images\restaurant2.jpg" />
+    <None Remove="DummyContent\Images\restaurant3.jpg" />
+    <None Remove="DummyContent\Images\restaurant4.jpg" />
+    <None Remove="DummyContent\Images\restaurant5.jpg" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ViewModels\" />
+    <EmbeddedResource Include="DummyContent\Images\Food 1.jpg" />
+    <EmbeddedResource Include="DummyContent\Images\Food 2.jpg" />
+    <EmbeddedResource Include="DummyContent\Images\Restaurant 1.jpg" />
+    <EmbeddedResource Include="DummyContent\Images\Restaurant 2.jpg" />
+    <EmbeddedResource Include="DummyContent\Images\Restaurant 3.jpg" />
+    <EmbeddedResource Include="DummyContent\Images\Restaurant 4.jpg" />
+    <EmbeddedResource Include="DummyContent\Images\Restaurant 5.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="16.1.0.37" />
+    <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="3.0.0.5" />
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.583944" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Pages\LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\RestaurantsPage.xaml.cs">
+      <DependentUpon>RestaurantsPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Pages\MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\RestaurantsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

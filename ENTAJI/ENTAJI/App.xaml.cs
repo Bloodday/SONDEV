@@ -1,4 +1,5 @@
 using System;
+using ENTAJI.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace ENTAJI
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new NavigationPage (new Pages.LoginPage());
 		}
 
 		protected override void OnStart ()
